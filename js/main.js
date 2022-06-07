@@ -1,6 +1,6 @@
-var elCard = document.querySelector('.table__info');
-var elCard2 = document.querySelector('.table__info2');
-var elCard3 = document.querySelector('.table__info3');
+var elCard = document.querySelector('.table-info');
+var elCard2 = document.querySelector('.table-info2');
+var elCard3 = document.querySelector('.table-info3');
 var elButton = document.querySelector('.burger-btn');
 var elMenu = document.querySelector('.menu');
 

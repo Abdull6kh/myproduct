@@ -1,0 +1,47 @@
+.quest {
+    margin-bottom: 150px;
+}
+.enter-text {
+    &--que {
+        margin-bottom: 50px;
+    }
+}
+.quest__list {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-type: none;
+}
+.quest__item {
+    max-width: 920px;
+    width: 100%;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #E7E7E7;
+}
+.quest__item + .quest__item {
+    margin-top: 16px;
+}
+.quest__text {
+    margin: 0 0 0 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: $main-text-color;
+}
+.quest__answer {
+    margin: 14px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-text-color;
+}
+@media only screen and (max-width:576px) {
+    .enter-title {
+        &--que{
+            margin-bottom: 16px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+    }
+}

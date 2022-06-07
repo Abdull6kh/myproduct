@@ -33,6 +33,9 @@
     &:hover {
         color: #02897A;
     }
+    &--pri {
+        color: $main-text-color;
+    }
 }
 @media only screen and (max-width:576px) {
     .join {

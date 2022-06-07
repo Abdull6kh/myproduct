@@ -17,7 +17,7 @@
     color: $main-text-color;
     text-align: center;
 }
-.table__list {
+.table-list {
     position: relative;
     display: flex;
     margin: 0;
@@ -34,10 +34,10 @@
         content: '';
     }
 }
-.table__item + .table__item{
+.table-item + .table-item{
     margin-left: 70px;
 }
-.table__info {
+.table-info {
     width: 323px;
     padding: 24px 76px 32px 73px;
     text-align: center;
@@ -48,22 +48,22 @@
 .info--open{
     background-color: #02897A;
 }
-.info--open .table__subtitle{
+.info--open .table-subtitle{
     color: #fff;
 }
-.info--open > .table__subtext{
+.info--open > .table-subtext{
     color: #fff;
 }
-.info--open .table__number{
+.info--open .table-number{
     color: #fff;
 }
-.info--open .table__dollar{
+.info--open .table-dollar{
     color: #fff;
 }
-.info--open .table__price{
+.info--open .table-price{
     color: #E0E0E0;
 }
-.info--open > .table__sublist .table__subitem{
+.info--open > .table-sublist .table-subitem{
     color: #fff;
 }
 .info--open > .menu-link--tab{
@@ -73,22 +73,22 @@
 .info--open2{
     background-color: #02897A;
 }
-.info--open2 .table__subtitle{
+.info--open2 .table-subtitle{
     color: #fff;
 }
-.info--open2 > .table__subtext{
+.info--open2 > .table-subtext{
     color: #fff;
 }
-.info--open2 .table__number{
+.info--open2 .table-number{
     color: #fff;
 }
-.info--open2 .table__dollar{
+.info--open2 .table-dollar{
     color: #fff;
 }
-.info--open2 .table__price{
+.info--open2 .table-price{
     color: #E0E0E0;
 }
-.info--open2 > .table__sublist .table__subitem{
+.info--open2 > .table-sublist .table-subitem{
     color: #fff;
 }
 .info--open2 > .menu-link--tab{
@@ -98,36 +98,36 @@
 .info--open3{
     background-color: #02897A;
 }
-.info--open3 .table__subtitle{
+.info--open3 .table-subtitle{
     color: #fff;
 }
-.info--open3 > .table__subtext{
+.info--open3 > .table-subtext{
     color: #fff;
 }
-.info--open3 .table__number{
+.info--open3 .table-number{
     color: #fff;
 }
-.info--open3 .table__dollar{
+.info--open3 .table-dollar{
     color: #fff;
 }
-.info--open3 .table__price{
+.info--open3 .table-price{
     color: #E0E0E0;
 }
-.info--open3 > .table__sublist .table__subitem{
+.info--open3 > .table-sublist .table-subitem{
     color: #fff;
 }
 .info--open3 > .menu-link--tab{
     color: #02897A;
     background-color: #fff;
 }
-.table__subtitle {
+.table-subtitle {
     margin: 0 0 8px;
     font-weight: 700;
     font-size: 24px;
     line-height: 40px;
     color: #22343D;
 }
-.table__subtext {
+.table-subtext {
     margin: 0 0 16px;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +139,7 @@
         margin-bottom: 16px;
     }
 }
-.table__number {
+.table-number {
     margin: 0;
     font-weight: 700;
     font-size: 76px;
@@ -147,7 +147,7 @@
     letter-spacing: 0.2px;
     color: #02897A;
 }
-.table__dollar {
+.table-dollar {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 24px;
@@ -155,7 +155,7 @@
     letter-spacing: 0.1px;
     color: #02897A;
 }
-.table__price {
+.table-price {
     flex-direction: column;
     align-items: start;
     font-weight: 400;
@@ -164,14 +164,14 @@
     letter-spacing: 0.1px;
     color: #AFAFAF;
 }
-.table__sublist {
+.table-sublist {
     display: flex;
     flex-direction: column;
     margin: 0 0 38px;
     padding-left: 0;
     list-style-type: none;
 }
-.table__subitem {
+.table-subitem {
     font-family: 'Inter';
     font-weight: 500;
     font-size: 16px;
@@ -180,7 +180,7 @@
     color: #22343D;
     text-align: center;
 }
-.table__subitem + .table__subitem{
+.table-subitem + .table-subitem{
     margin-top: 16px;
 }
 .menu-link {
@@ -197,12 +197,12 @@
     .table__text {
         margin-bottom: 75px;
     }
-    .table__list {
+    .table-list {
         flex-direction: column;
         width: 340px;
         margin: 0 auto;
     }
-    .table__item + .table__item{
+    .table-item + .table-item{
         margin-top: 32px;
         margin-left: 0px;
     }
