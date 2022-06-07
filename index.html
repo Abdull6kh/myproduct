@@ -1,13 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Myproduct</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo-link" href="./index.html">
+                    <img src="./images/logo.svg" width="178" height="37" alt="site logo">
+                </a>
+                <button class="burger-btn">&#9776;</button>
+                <nav class="menu">
+                    <ol class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu-link menu-link--active" href="./index.html">Product</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu-link" href="#">Customers</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu-link" href="#">Pricing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu-link" href="#">Resources</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu-link menu-link--con" href="#">Sign in</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu-link menu-link--sec" href="#">Sign up</a>
+                        </li>
+                        <li class="menu__item">
+                            <button class="dark">
+                                <img src="./images/light.svg" alt="dark mode">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="flex-div flex-div--int">
+                    <div class="intro__inner">
+                        <h1 class="intro__title">
+                            Work at the speed <br>
+                            of thought
+                        </h1>
+                        <p class="intro__text">
+                            Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to
+                            imagine your next user experience.
+                        </p>
+                        <div class="flex-div">
+                            <a class="menu-link menu-link--sec menu-link--int" href="#">
+                                Get started
+                            </a>
+                            <a class="intro__link" href="#">
+                                <img class="vector" src="./images/vec3.svg" width="20" height="17" alt="vector">
+                                Watch the Video
+                            </a>
+                        </div>
+                    </div>
+                    <picture class="client__img">
+                        <source type="image/png" media="(max-width:576px)"
+                            srcset="./images/bgi1-m.png 1x, ./images/bgi1-m@2x.png 2x">
+                        <img src="./images/bgi1.png" srcset="./images/bgi1.png 1x, ./images/bgi1@2x.png 2x" width="600"
+                            height="556" alt="intro img">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <div class="feature__illustration">
+                <div class="title-div">
+                    <h2 class="feature__title">
+                        Product was Built Specifically
+                        for You
+                    </h2>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="feature__list">
+                    <li class="feature__item">
+                        <h3 class="feature__subtitle">
+                            First click tests
+                        </h3>
+                        <p class="feature__text">
+                            While most people enjoy casino gambling,
+                        </p>
+                    </li>
+                    <li class="feature__item">
+                        <h3 class="feature__subtitle">
+                            Design surveys
+                        </h3>
+                        <p class="feature__text">
+                            Sports betting, lottery and bingo playing for the fun
+                        </p>
+                    </li>
+                    <li class="feature__item">
+                        <h3 class="feature__subtitle">
+                            Preference tests
+                        </h3>
+                        <p class="feature__text">
+                            The Myspace page defines the individual.
+                        </p>
+                    </li>
+                    <li class="feature__item">
+                        <h3 class="feature__subtitle">
+                            Five second tests
+                        </h3>
+                        <p class="feature__text">
+                            Personal choices and the overall personality of the person.
+                        </p>
+                    </li>
+                </ul>
+                <a class="menu-link menu-link--sec menu-link--int menu-link--fea" href="#">
+                    SIGN UP NOW
+                </a>
+            </div>
+        </section>
+        <section class="manage">
+            <div class="container">
+                <ul class="manage__list">
+                    <li class="manage__item">
+                        <div class="manage__info">
+                            <span class="manage__jobs">
+                                Effortless Validation for
+                            </span>
+                            <h2 class="manage__title">
+                                Management
+                            </h2>
+                            <p class="manage__text manage__text--rd manage__text--no">
+                                The Myspace page defines the individual, his or her characteristics, traits, personal
+                                choices and the overall personality of the person.
+                            </p>
+                            <span class="manage__jobs manage__jobs--sec">
+                                Accessory makers
+                            </span>
+                            <p class="manage__text">
+                                While most people enjoy casino gambling, sports betting, lottery and bingo playing for
+                                the fun
+                            </p>
+                            <span class="manage__jobs manage__jobs--sec">
+                                Alterationists
+                            </span>
+                            <p class="manage__text manage__text--sec">
+                                If you are looking for a new way to promote your business that won’t cost you more
+                                money,
+                            </p>
+                        </div>
+                        <picture class="client__img">
+                            <source type="image/png" media="(max-width:576px)"
+                                srcset="./images/bgi2-m.png 1x, ./images/bgi2-m@2x.png 2x">
+                            <img src="./images/bgi2.png" srcset="./images/bgi2.png 1x, ./images/bgi2@2x.png 2x"
+                                width="540" height="474" alt="management">
+                        </picture>
+                    </li>
+                    <li class="manage__item">
+                        <div class="manage__info">
+                            <span class="manage__jobs">
+                                Easier decision making for
+                            </span>
+                            <h2 class="manage__title manage__title--sec">
+                                Customer Support
+                            </h2>
+                            <p class="manage__text manage__text--rd">
+                                The Myspace page defines the individual, his or her characteristics, traits, personal
+                                choices and the overall personality of the person.
+                            </p>
+                            <ul class="manage__sublist">
+                                <li class="manage__subitem">
+                                    <div class="text-div">
+                                        <p class="manage__text manage__text--sec">
+                                            Never worry about overpaying for your energy again.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="manage__subitem">
+                                    <div class="text-div">
+                                        <p class="manage__text manage__text--sec">
+                                            We will only switch you to energy companies that we trust and will treat you
+                                            right
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="manage__subitem">
+                                    <div class="text-div">
+                                        <p class="manage__text manage__text--sec">
+                                            We track the markets daily and know where the savings are.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <picture class="client__img">
+                            <source type="image/png" media="(max-width:576px)"
+                                srcset="./images/bgi3-m.png 1x, ./images/bgi3-m@2x.png 2x">
+                            <img src="./images/bgi3.png" srcset="./images/bgi3.png 1x, ./images/bgi3@2x.png 2x"
+                                width="543" height="500" alt="customer support">
+                        </picture>
+                    </li>
+                    <li class="manage__item">
+                        <div class="manage__info">
+                            <span class="manage__jobs">
+                                Optimisation for
+                            </span>
+                            <h2 class="manage__title manage__title--sec">
+                                Collaborative
+                            </h2>
+                            <p class="manage__text manage__text--rd">
+                                Few would argue that, despite the advancements of feminism over the past three decades,
+                                women still face a double standard when it comes to their behavior.
+                            </p>
+                            <span class="manage__jobs manage__jobs--sec">
+                                Accessory makers
+                            </span>
+                            <p class="manage__text">
+                                While most people enjoy casino gambling, sports betting, lottery and bingo playing for
+                                the fun
+                            </p>
+                            <span class="manage__jobs manage__jobs--sec">
+                                Alterationists
+                            </span>
+                            <p class="manage__text manage__text--sec">
+                                If you are looking for a new way to promote your business that won’t cost you more
+                                money,
+                            </p>
+                        </div>
+                        <picture class="client__img">
+                            <source type="image/png" media="(max-width:576px)"
+                                srcset="./images/bgi4-m.png 1x, ./images/bgi4-m@2x.png 2x">
+                            <img src="./images/bgi4.png" srcset="./images/bgi4.png 1x, ./images/bgi4@2x.png 2x"
+                                width="542" height="452" alt="panbrative">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="process">
+            <div class="container">
+                <div class="process__header">
+                    <h2 class="process__title">
+                        Quick & Easy Process
+                    </h2>
+                    <p class="process__text">
+                        Do you require some help for your project: Conception workshop,
+                        prototyping, marketing strategy, landing page, Ux/UI?
+                    </p>
+                </div>
+                <ul class="flex-list">
+                    <li class="flex-item">
+                        <ul class="process__list">
+                            <li class="process__item">
+                                <img src="./images/pic1.png" srcset="./images/pic1.png 1x ./images/pic1@2x.png 2x"
+                                    width="98" height="98" alt="net">
+                                <div class="process__message">
+                                    <p class="process__sms">
+                                        I can take care of your pitch
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="process__item process__item--sec">
+                                <img src="./images/pic3.png" srcset="./images/pic3.png 1x ./images.pic3@2x.png 2x"
+                                    width="98" height="98" alt="designer">
+                                <div class="process__message process__message--sec">
+                                    <p class="process__sms">
+                                        I can design you website
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex-item">
+                        <ul class="process__list process__list--sec">
+                            <li class="process__item process__item--rd">
+                                <div class="process__message process__message--sec">
+                                    <p class="process__sms">
+                                        I can prototype your app
+                                    </p>
+                                </div>
+                                <img src="./images/pic2.png" srcset="./images/pic2.png 1x ./images/pic2@2x.png 2x"
+                                    width="98" height="98" alt="net">
+                            </li>
+                            <li class="process__item process__item--sec process__item--fou">
+                                <div class="process__message process__message--fou">
+                                    <p class="process__sms">
+                                        I can help marketing strategy
+                                    </p>
+                                </div>
+                                <img src="./images/pic4.png" srcset="./images/pic4.png 1x ./images.pic4@2x.png 2x"
+                                    width="98" height="98" alt="marketolog">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--pro" href="#">
+                    Contact our expert
+                </a>
+            </div>
+        </section>
+        <section class="strategy">
+            <div class="container">
+                <h2 class="strategy__title">
+                    Contents Strategies
+                </h2>
+                <p class="strategy__text">
+                    We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                </p>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <ul class="strategy__list">
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img1.jpg"
+                                        srcset="./images/img1.jpg 1x ./images/img1@2x 2x" width="348" height="185"
+                                        alt="Increasing Prosperity With Positive Thinking">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Increasing Prosperity With Positive Thinking
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle strategy__subtitle--gre">
+                                            Motivation Is The First Step To Success
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img3.jpg"
+                                        srcset="./images/img3.jpg 1x ./images/img3@2x 2x" width="348" height="185"
+                                        alt="Success Steps For Your Personal Or Business">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Success Steps For Your Personal Or Business
+                                        </h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <ul class="strategy__list strategy__list--non">
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Increasing Prosperity With Positive Thinking
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle strategy__subtitle--gre">
+                                            Motivation Is The First Step To Success
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img3.jpg"
+                                        srcset="./images/img3.jpg 1x ./images/img3@2x 2x" width="348" height="185"
+                                        alt="Success Steps For Your Personal Or Business">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Success Steps For Your Personal Or Business
+                                        </h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <ul class="strategy__list strategy__list--non">
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Increasing Prosperity With Positive Thinking
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle strategy__subtitle--gre">
+                                            Motivation Is The First Step To Success
+                                        </h3>
+                                    </div>
+                                </li>
+                                <li class="strategy__item">
+                                    <img class="strategy__img" src="./images/img2.jpg"
+                                        srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                                        alt="Motivation Is The First Step To Success">
+                                    <div class="strategy__info">
+                                        <p class="strategy__subtext">
+                                            By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                                March
+                                                2019</time>
+                                        </p>
+                                        <h3 class="strategy__subtitle">
+                                            Success Steps For Your Personal Or Business
+                                        </h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul class="strategy__list strategy__list--m">
+                    <li class="strategy__item">
+                        <img class="strategy__img" src="./images/img1.jpg"
+                            srcset="./images/img1.jpg 1x ./images/img1@2x 2x" width="348" height="185"
+                            alt="Increasing Prosperity With Positive Thinking">
+                        <div class="strategy__info">
+                            <p class="strategy__subtext">
+                                By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                    March
+                                    2019</time>
+                            </p>
+                            <h3 class="strategy__subtitle">
+                                Increasing Prosperity With Positive Thinking
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="strategy__item">
+                        <img class="strategy__img" src="./images/img2.jpg"
+                            srcset="./images/img2.jpg 1x ./images/img2@2x 2x" width="348" height="185"
+                            alt="Motivation Is The First Step To Success">
+                        <div class="strategy__info">
+                            <p class="strategy__subtext">
+                                By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                    March
+                                    2019</time>
+                            </p>
+                            <h3 class="strategy__subtitle strategy__subtitle--gre">
+                                Motivation Is The First Step To Success
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="strategy__item">
+                        <img class="strategy__img" src="./images/img3.jpg"
+                            srcset="./images/img3.jpg 1x ./images/img3@2x 2x" width="348" height="185"
+                            alt="Success Steps For Your Personal Or Business">
+                        <div class="strategy__info">
+                            <p class="strategy__subtext">
+                                By <span class="bold">Wahid Ari</span> | <time datetime="2019-03-03">03
+                                    March
+                                    2019</time>
+                            </p>
+                            <h3 class="strategy__subtitle">
+                                Success Steps For Your Personal Or Business
+                            </h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="table">
+            <div class="container">
+                <h2 class="table__title">
+                    Price Table
+                </h2>
+                <p class="table__text">
+                    We offer competitive price
+                </p>
+                <form class="table__form" action="https://echo.htmlacademy.ru/" method="post">
+                    <ul class="table__list">
+                        <li class="table__item">
+                            <div class="table__info">
+                                <input class="table__input visually-hidden" name="user_choise" value="free" type="radio"
+                                    aria-label="free">
+                                <h3 class="table__subtitle">
+                                    Free
+                                </h3>
+                                <p class="table__subtext">
+                                    Brief price description
+                                </p>
+                                <div class="flex-div">
+                                    <span class="table__number">
+                                        0
+                                    </span>
+                                    <span class="flex-div flex-div--tab table__price">
+                                        <span class="table__dollar">
+                                            $
+                                        </span>
+                                        <span class="table__time">
+                                            Per / month
+                                        </span>
+                                    </span>
+                                </div>
+                                <ul class="table__sublist">
+                                    <li class="table__subitem">
+                                        Only 2 Operators
+                                    </li>
+                                    <li class="table__subitem">
+                                        Notifications
+                                    </li>
+                                    <li class="table__subitem">
+                                        Landing Pages
+                                    </li>
+                                </ul>
+                                <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
+                                    type="submit" href="#">
+                                    Order Now
+                                </button>
+                            </div>
+                        </li>
+                        <li class="table__item">
+                            <div class="table__info table__info2 info--open2">
+                                <input class="table__input visually-hidden" name="user_choise" value="standard"
+                                    type="radio" aria-label="free">
+                                <h3 class="table__subtitle">
+                                    Standard
+                                </h3>
+                                <p class="table__subtext">
+                                    Brief price description
+                                </p>
+                                <div class="flex-div">
+                                    <span class="table__number">
+                                        5
+                                    </span>
+                                    <span class="flex-div flex-div--tab table__price">
+                                        <span class="table__dollar">
+                                            $
+                                        </span>
+                                        <span class="table__time">
+                                            Per / month
+                                        </span>
+                                    </span>
+                                </div>
+                                <ul class="table__sublist">
+                                    <li class="table__subitem">
+                                        5+ Operators
+                                    </li>
+                                    <li class="table__subitem">
+                                        Notifications
+                                    </li>
+                                    <li class="table__subitem">
+                                        Landing Pages
+                                    </li>
+                                </ul>
+                                <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
+                                    type="submit" href="#">
+                                    Order Now
+                                </button>
+                            </div>
+                        </li>
+                        <li class="table__item">
+                            <div class="table__info table__info3">
+                                <input class="table__input visually-hidden" name="user_choise" value="premium"
+                                    type="radio" aria-label="free">
+                                <h3 class="table__subtitle">
+                                    Premium
+                                </h3>
+                                <p class="table__subtext">
+                                    Brief price description
+                                </p>
+                                <div class="flex-div">
+                                    <span class="table__number">
+                                        10
+                                    </span>
+                                    <span class="flex-div flex-div--tab table__price">
+                                        <span class="table__dollar">
+                                            $
+                                        </span>
+                                        <span class="table__time">
+                                            Per / month
+                                        </span>
+                                    </span>
+                                </div>
+                                <ul class="table__sublist">
+                                    <li class="table__subitem">
+                                        10+ Operators
+                                    </li>
+                                    <li class="table__subitem">
+                                        Notifications
+                                    </li>
+                                    <li class="table__subitem">
+                                        Landing Pages
+                                    </li>
+                                </ul>
+                                <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
+                                    type="submit" href="#">
+                                    Order Now
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+        <section class="client">
+            <div class="container">
+                <h2 class="client__title">
+                    What Clients Say
+                </h2>
+                <div class="text-div text-div--cli">
+                    <p class="client__text">
+                        Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+                    </p>
+                </div>
+                <ul class="client__list">
+                    <li class="client__item">
+                        <div class="flex-div">
+                            <img src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec2.svg" width="19" height="19" alt="vector">
+                        </div>
+                        <p class="client__subtext">
+                            Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.
+                        </p>
+                        <div class="flex-div">
+                            <img src="./images/pic5.png" srcset="./images/pic5.png 1x ./images/pic5@2x 2x" width="50"
+                                height="50" alt="">
+                            <div class="client__info">
+                                <strong class="client__name">
+                                    Wahid Ari
+                                </strong>
+                                <span class="client__job">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="client__item">
+                        <div class="flex-div">
+                            <img src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec2.svg" width="19" height="19" alt="vector">
+                        </div>
+                        <p class="client__subtext">
+                            Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.
+                        </p>
+                        <div class="flex-div">
+                            <img src="./images/pic6.png" srcset="./images/pic6.png 1x ./images/pic6@2x 2x" width="50"
+                                height="50" alt="">
+                            <div class="client__info">
+                                <strong class="client__name">
+                                    Wahid Ari
+                                </strong>
+                                <span class="client__job">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="client__item">
+                        <div class="flex-div">
+                            <img src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec1.svg" width="19" height="19" alt="vector">
+                            <img class="client__img" src="./images/vec2.svg" width="19" height="19" alt="vector">
+                        </div>
+                        <p class="client__subtext">
+                            Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.
+                        </p>
+                        <div class="flex-div">
+                            <img src="./images/pic7.png" srcset="./images/pic7.png 1x ./images/pic7@2x 2x" width="50"
+                                height="50" alt="">
+                            <div class="client__info">
+                                <strong class="client__name">
+                                    Wahid Ari
+                                </strong>
+                                <span class="client__job">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="join">
+            <div class="container">
+                <div class="join__inner">
+                    <div class="join__info">
+                        <h2 class="join__title">
+                            Join 100 Compannies who boost their business with Product
+                        </h2>
+                        <a class="join__link" href="#">
+                            Get This
+                        </a>
+                    </div>
+                    <img src="./images/bgi5.png" srcset="./images/bgi5.png 1x ./images/bgi5@2x.png 2x" width="351"
+                        height="331" alt="join">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="flex-div flex-div--footer">
+                    <div class="footer__left">
+                        <a class="logo-link" href="./index.html">
+                            <img src="./images/logof.svg" width="163" height="30" alt="logo">
+                        </a>
+                        <ul class="footer__adresses">
+                            <li class="footer__adress">
+                                <a class="footer__link" href="https://instagram.com/">
+                                    <img src="./images/ic8.svg" width="40" height="40" alt="instagram">
+                                </a>
+                            </li>
+                            <li class="footer__adress">
+                                <a class="footer__link" href="https://facebook.com/">
+                                    <img src="./images/ic9.svg" width="40" height="40" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="footer__adress">
+                                <a class="footer__link" href="https://twitter.com/">
+                                    <img src="./images/ic10.svg" width="40" height="40" alt="twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer__list">
+                        <li class="footer__item footer__item--act">
+                            Resource
+                        </li>
+                        <li class="footer__item">
+                            About Us
+                        </li>
+                        <li class="footer__item">
+                            Blog
+                        </li>
+                        <li class="footer__item">
+                            Contact
+                        </li>
+                        <li class="footer__item">
+                            FAQ
+                        </li>
+                    </ul>
+                    <ul class="footer__list footer__list--sec">
+                        <li class="footer__item footer__item--act">
+                            Legal Stuff
+                        </li>
+                        <li class="footer__item">
+                            Disclaimer
+                        </li>
+                        <li class="footer__item">
+                            Financing
+                        </li>
+                        <li class="footer__item">
+                            Privacy Policy
+                        </li>
+                        <li class="footer__item">
+                            Terms of Service
+                        </li>
+                    </ul>
+                    <form class="footer__form" action="https://echo.htmlacademy.ru/" method="post">
+                        <p class="footer__text">
+                            knowing you're always on the best energy deal.
+                        </p>
+                        <input class="footer__input" type="tel" name="user_phone" aria-label="Enter your phone Number"
+                            placeholder="Enter your phone Number">
+                        <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--footer"
+                            type="submit" href="#">
+                            Sign up Now
+                        </button>
+                    </form>
+                </div>
+                <span class="footer__span">
+                    Made With Love By Figmaland All Right Reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

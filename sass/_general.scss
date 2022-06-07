@@ -12,6 +12,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 main {
     flex-grow: 1;
@@ -21,4 +22,7 @@ img {
     height: auto;
     vertical-align: middle;
     object-fit: cover;
+}
+a:hover {
+    color: #fff;
 }

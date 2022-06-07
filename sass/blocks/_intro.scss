@@ -1,0 +1,89 @@
+.intro {
+    margin: 40px 0 115px;
+}
+.flex-div {
+    &--int {
+        flex-direction: column-reverse;
+    }
+}
+.intro__inner {
+    max-width: 458px;
+    width: 100%;
+    margin-right: auto;
+}
+.intro__title {
+    margin: 0 0 18px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: $main-text-color;
+}
+.intro__text {
+    margin: 0 0 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $main-text-color;
+}
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+.menu-link {
+    &--int {
+        max-width: 175px;
+        width: 100%;
+        margin: 0 31px 0 0;
+        font-weight: 700;
+    }
+}
+.vector {
+    margin-right: 10px;
+}
+.intro__link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #02897A;
+    &:hover {
+        color: #02897A;
+    }
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .intro {
+        background-image: url("../images/bgi1@2x.png");
+    }
+}
+@media only screen and (max-width:576px) {
+    .intro {
+        margin-top: 30px;
+    }
+    .intro__inner {
+        margin-top: 10px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .intro__title {
+        margin: 0 0 16px;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .intro__text {
+        margin: 0 0 10px;
+    }
+    .menu-link {
+        &--int{
+            max-width: 142px;
+            margin: 0 28px 0 0;
+        }
+    }
+    .vector {
+        margin-right: 0;
+    }
+}
