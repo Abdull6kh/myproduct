@@ -1,0 +1,126 @@
+.work {
+    margin-bottom: 115px;
+}
+.enter-title {
+    &--wor {
+        margin-bottom: 75px;
+    }
+}
+.work__list {
+    margin: 0 0 75px;
+    padding-left: 0;
+    list-style-type: none;
+}
+.work__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &::before {
+        display: block;
+        width: 500px;
+        height: 280px;
+        background-image: url("../images/cus-img1.png");
+        background-repeat: no-repeat;
+        background-size: 500px 280px;
+        background-position: left;
+        content: '';
+    }
+    &:nth-child(2) {
+        flex-direction: row-reverse;
+        &::before {
+            background-image: url("../images/cus-img2.png");
+        }
+    }
+    &:nth-child(3) {
+        &::before {
+            background-image: url("../images/cus-img3.png");
+        }
+    }
+}
+.work__item + .work__item {
+    margin-top: 100px;
+}
+.work__info {
+    max-width: 438px;
+    width: 100%;
+    margin-left: 90px;
+    &--sec {
+        max-width: 445px;
+        margin-right: 90px;
+        margin-left: 0;
+    }
+}
+.work__step {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $main-text-color;
+}
+.work__subtitle {
+    margin: 0 0 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: $main-text-color;
+}
+.work__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $main-text-color;
+}
+.menu-link {
+    &--wor {
+        max-width: 224px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .work {
+        margin-bottom: 70px;
+    }
+    .work__list {
+        flex-direction: column;
+        width: 350px;
+    }
+    .work__item {
+        flex-direction: column;
+        &::before {
+            width: 395px;
+            height: 195px;
+            background-image: url("../images/cus-img1-m.png");
+            background-size: 395px 195px;
+            background-position: top;
+            content: '';
+        }
+        &:nth-child(2) {
+            flex-direction: column;
+            &::before {
+                background-image: url("../images/cus-img2-m.png");
+            }
+        }
+        &:nth-child(3) {
+            &::before {
+                background-image: url("../images/cus-img3-m.png");
+            }
+        }
+    }
+    .work__item + .work__item {
+        margin-top: 70px;
+    }
+    .work__info {
+        max-width: 335px;
+        margin: 80px auto 0 auto;
+        &--sec {
+            max-width: 375px;
+            margin-right: 0;
+        }
+    }
+    .menu-link {
+        &--wor {
+            color: #fff;
+            background-color: #02897A;
+        }
+    }
+}
