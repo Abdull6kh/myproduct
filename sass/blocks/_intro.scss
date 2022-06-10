@@ -1,11 +1,6 @@
 .intro {
     margin: 40px 0 115px;
 }
-.flex-div {
-    &--int {
-        flex-direction: column-reverse;
-    }
-}
 .intro__inner {
     max-width: 458px;
     width: 100%;
@@ -65,6 +60,11 @@ only screen and (                min-resolution: 2dppx) {
 @media only screen and (max-width:576px) {
     .intro {
         margin-top: 30px;
+    }
+    .flex-div {
+        &--int {
+            flex-direction: column-reverse;
+        }
     }
     .intro__inner {
         margin-top: 10px;

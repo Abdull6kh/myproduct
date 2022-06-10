@@ -1,0 +1,107 @@
+.contact {
+    margin-bottom: 150px;
+}
+.contact__header {
+    width: 312px;
+    margin: 0 auto 65px;
+}
+.contact__title {
+    margin: 0 0 25px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.contact__text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+.contact__list {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    margin: 0 auto 65px;
+    padding-left: 0;
+    list-style-type: none;
+}
+.contact__item +.contact__item {
+    margin-left: 20px;
+}
+.contact__link {
+    text-decoration: none;
+}
+.contact__iframe {
+    display: block;
+    width: 831px;
+    height: 324px;
+    margin: 0 auto;
+}
+.contact__form {
+    max-width: 868px;
+    width: 100%;
+    margin: 60px auto 0;
+    padding: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+}
+.contact__subtitle {
+    margin: 0 0 45px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-align: center;
+}
+.contact__input {
+    max-width: 768px;
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 19px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: $main-text-color; 
+    }
+}
+.contact__textarea {
+    max-width: 768px;
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 20px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    resize: none;
+    &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: $main-text-color; 
+    }
+}
+.contact__btn {
+    width: 145px;
+    padding: 18px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #02897A;
+    border-radius: 35px;
+}

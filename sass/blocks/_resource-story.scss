@@ -1,0 +1,38 @@
+.story {
+    margin-bottom: 160px;
+}
+.story__title {
+    margin: 0 0 8px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: $main-text-color;
+    text-align: center;
+}
+.story__text {
+    margin: 0 0 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $main-text-color;
+    text-align: center;
+}
+.strategy-list {
+    &--res {
+        margin-bottom: 32px;
+        padding-bottom: 0;
+    }
+}
+.story__link {
+    display: block;
+    width: 142px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: $main-text-color;
+    text-decoration: none;
+}
+.story__img {
+    margin-left: 10px;
+}

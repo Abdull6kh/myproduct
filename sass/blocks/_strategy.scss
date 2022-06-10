@@ -15,26 +15,26 @@
     line-height: 26px;
     color: #22343D;
 }
-.strategy__list {
+.strategy-list {
     display: flex;
     margin: 0;
     padding-bottom: 80px;
     padding-left: 0;
     list-style-type: none;
 }
-.strategy__item + .strategy__item {
+.strategy-item + .strategy-item {
     margin-left: 32px;
 }
-.strategy__img {
+.strategy-img {
     border-radius: 8px 8px 0px 0px;
 }
-.strategy__info {
+.strategy-info {
     width: 348px;
     padding: 24px 30px 40px 24px;
     border: 1px solid #DEDEDE;
     border-radius: 0 0 8px 8px;
 }
-.strategy__subtext {
+.strategy-subtext {
     margin: 0 0 12px;
     font-weight: 400;
     font-size: 16px;
@@ -44,7 +44,7 @@
 .bold {
     font-weight: 700;
 }
-.strategy__subtitle {
+.strategy-subtitle {
     margin: 0;
     font-weight: 700;
     font-size: 24px;
@@ -69,7 +69,7 @@
 .carousel-indicators {
     margin-bottom: 0;
 }
-.strategy__list{
+.strategy-list{
     &--m {
         display: none;
     }
@@ -87,13 +87,13 @@
     .strategy__text {
         margin-bottom: 40px;
     }
-    .strategy__list {
+    .strategy-list {
         &--m {
             display: flex;
             flex-direction: column;
         }
     }
-    .strategy__item + .strategy__item {
+    .strategy-item + .strategy-item {
         margin-top: 16px;
         margin-left: 0;
     }
