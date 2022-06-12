@@ -43,7 +43,9 @@
     }
     .join__inner{
         flex-direction: column;
-        padding: 17px 10px 10px;
+        max-width: 371px;
+        width: 100%;
+        padding: 17px 21px 22px 10px;
     }
     .join__info {
         margin-bottom: 40px;

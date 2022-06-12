@@ -78,6 +78,11 @@
     .strategy {
         margin-bottom: 60px;
     }
+    .strategy__header {
+        max-width: 349px;
+        width: 100%;
+        margin: 0 auto;
+    }
     .carousel-indicators {
         display: none;
     }
@@ -91,6 +96,8 @@
         &--m {
             display: flex;
             flex-direction: column;
+            width: 348px;
+            margin: 0 auto;
         }
     }
     .strategy-item + .strategy-item {

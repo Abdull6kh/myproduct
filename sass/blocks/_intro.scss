@@ -71,13 +71,28 @@ only screen and (                min-resolution: 2dppx) {
         margin-right: 0;
         text-align: center;
     }
+    .title-div {
+        &--int {
+            max-width: 370px;
+            width: 100%;
+        }
+    }
     .intro-title {
         margin: 0 0 16px;
         font-size: 36px;
         line-height: 60px;
     }
+    .intro-text-div {
+        max-width: 330px;
+        width: 100%;
+        margin: 0 auto;
+    }
     .intro__text {
         margin: 0 0 10px;
+    }
+    .intro-links-flex-div {
+        width: 330px;
+        margin: 0 auto;
     }
     .menu-link {
         &--int{
