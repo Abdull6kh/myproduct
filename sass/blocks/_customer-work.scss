@@ -82,9 +82,10 @@
     }
     .work__list {
         flex-direction: column;
-        width: 350px;
+        width: 359px;
+        margin: 0 auto 75px;
     }
-    .work__item {
+    .work__item {        
         flex-direction: column;
         &::before {
             width: 395px;

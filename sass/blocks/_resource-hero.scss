@@ -26,10 +26,10 @@
     letter-spacing: -0.03em;
     color: $main-text-color;
 }
-.hero__form {
+.res-hero__form {
     position: relative;
 }
-.hero__input {
+.res-hero__input {
     max-width: 470px;
     width: 100%;
     margin-bottom: 24px;
@@ -37,7 +37,7 @@
     border: 1px solid #EAEAEA;
     border-radius: 100px;
 }
-.hero__btn {
+.res-hero__btn {
     position: absolute;
     top: 10px;
     right: 75px;
@@ -52,7 +52,7 @@
     background: #02897A;
     border-radius: 100px;
 }
-.hero__span {
+.res-hero__span {
     margin-left: 10px;
     font-weight: 400;
     font-size: 14px;
@@ -61,4 +61,33 @@
 }
 .green-text {
     color: #02897A;
+}
+@media only screen and (max-width:576px) {
+    .res-hero {
+        margin: 50px 0 45px;
+    }
+    .res-hero__inner {
+        flex-direction: column;
+    }
+    .res-hero__info {
+        margin-bottom: 85px;
+    }
+    .res-hero__header {
+        width: 353px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .res-hero__title {
+        font-size: 36px;
+    }
+    .res-hero__text {
+        line-height: 171%;
+    }
+    .res-hero__form {
+        width: 346px;
+        margin: 0 auto;
+    }
+    .res-hero__btn {
+        right: 10px;
+    }
 }

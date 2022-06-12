@@ -74,6 +74,8 @@
     }
     .choose__list {
         flex-direction: column;
+        width: 350px;
+        margin: 0 auto;
     }
     .choose__item {
         max-width: 350px;

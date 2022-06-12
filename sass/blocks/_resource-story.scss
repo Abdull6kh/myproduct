@@ -36,3 +36,30 @@
 .story__img {
     margin-left: 10px;
 }
+@media only screen and (max-width:576px) {
+    .story {
+        margin-bottom: 60px;
+    }
+    .story__header {
+        width: 351px;
+        margin: 0 auto;
+    }
+    .story__title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .story__text {
+        margin-bottom: 50px;
+    }
+    .strategy-list {
+        &--res {
+            flex-direction: column;
+            width: 348px;
+            margin: 0 auto 32px;
+        }
+    }
+    .strategy-item--res + .strategy-item--res {
+        margin-top: 32px;
+    }
+}

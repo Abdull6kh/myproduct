@@ -37,11 +37,18 @@
     color: $main-text-color;
 }
 @media only screen and (max-width:576px) {
+    .quest__header {
+        width: 326px;
+        margin: 0 auto;
+    }
     .enter-title {
         &--que{
             margin-bottom: 16px;
             font-size: 32px;
             line-height: 48px;
         }
+    }
+    .quest__list {
+        max-width: 355px;
     }
 }

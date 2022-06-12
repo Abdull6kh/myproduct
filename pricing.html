@@ -30,7 +30,7 @@
                             <a class="menu-link menu-link--active" href="./pricing.html">Pricing</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu-link" href="#">Resources</a>
+                            <a class="menu-link" href="./resource.html">Resources</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu-link menu-link--con" href="#">Sign in</a>
@@ -51,15 +51,17 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">
-                    PRICING
-                </h1>
-                <h2 class="intro-title intro-title--pri">
-                    Let’s get some real work done here.
-                </h2>
-                <p class="hero__text">
-                    Prodict is your perfect solution for working. Get started now for free
-                </p>
+                <div class="hero__header">
+                    <h1 class="hero-title">
+                        PRICING
+                    </h1>
+                    <h2 class="intro-title intro-title--pri">
+                        Let’s get some real work done here.
+                    </h2>
+                    <p class="hero__text">
+                        Prodict is your perfect solution for working. Get started now for free
+                    </p>
+                </div>
                 <ul class="table-list table-list--pri">
                     <li class="table-item">
                         <div class="table-info">
@@ -96,13 +98,13 @@
                                 </li>
                             </ul>
                             <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
-                                type="submit" href="#">
+                                type="submit">
                                 Order Now
                             </button>
                         </div>
                     </li>
                     <li class="table-item">
-                        <div class="table-info table-info2 info--open2">
+                        <div class="table-info table-info2 table-info--open2">
                             <input class="table-input visually-hidden" name="user_choise" value="standard" type="radio"
                                 aria-label="free">
                             <h3 class="table-subtitle">
@@ -136,7 +138,7 @@
                                 </li>
                             </ul>
                             <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
-                                type="submit" href="#">
+                                type="submit">
                                 Order Now
                             </button>
                         </div>
@@ -176,7 +178,7 @@
                                 </li>
                             </ul>
                             <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--tab"
-                                type="submit" href="#">
+                                type="submit">
                                 Order Now
                             </button>
                         </div>
@@ -186,18 +188,20 @@
         </section>
         <section class="enter">
             <div class="container">
-                <h2 class="hero-title hero-title--ent">
-                    ENTERPRISE
-                </h2>
-                <h3 class="enter-title">
-                    Are you interested in a custom-tailored plan?
-                </h3>
-                <p class="enter-text">
-                    Product is a set of advanced features for really large teams with projects.
-                </p>
-                <a class="menu-link menu-link--sec menu-link--int menu-link--ent" href="#">
-                    Get in touch with us
-                </a>
+                <div class="enter__inner">
+                    <h2 class="hero-title hero-title--ent">
+                        ENTERPRISE
+                    </h2>
+                    <h3 class="enter-title">
+                        Are you interested in a custom<span class="not-title">-</span>tailored plan?
+                    </h3>
+                    <p class="enter-text">
+                        Product is a set of advanced features for really large teams with projects.
+                    </p>
+                    <a class="menu-link menu-link--sec menu-link--int menu-link--ent" href="#">
+                        Get in touch with us
+                    </a>
+                </div>
             </div>
         </section>
         <section class="effect">
@@ -256,12 +260,14 @@
         </section>
         <section class="quest">
             <div class="container">
-                <h3 class="enter-title enter-title--que">
-                    Frequently asked question
-                </h3>
-                <p class="enter-text enter-text--que">
-                    Something is not clear? You need help? Check our FAQ section
-                </p>
+                <div class="quest__header">
+                    <h3 class="enter-title enter-title--que">
+                        Frequently asked question
+                    </h3>
+                    <p class="enter-text enter-text--que">
+                        Something is not clear? You need help? Check our FAQ section
+                    </p>
+                </div>
                 <ul class="quest__list">
                     <li class="quest__item">
                         <div class="flex-div">
@@ -314,7 +320,7 @@
                             Get This
                         </a>
                     </div>
-                    <img src="./images/bgi5.png" srcset="./images/bgi5.png 1x ./images/bgi5@2x.png 2x" width="351"
+                    <img src="./images/bgi5.png" srcset="./images/bgi5.png 1x, ./images/bgi5@2x.png 2x" width="351"
                         height="331" alt="join">
                 </div>
             </div>
@@ -387,7 +393,7 @@
                         <input class="footer__input" type="tel" name="user_phone" aria-label="Enter your phone Number"
                             placeholder="Enter your phone Number">
                         <button class="menu-link menu-link--sec menu-link--int menu-link--fea menu-link--footer"
-                            type="submit" href="#">
+                            type="submit">
                             Sign up Now
                         </button>
                     </form>
